@@ -9,7 +9,6 @@ This repository contains a collection of fundamental Data Structures and Algorit
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -23,8 +22,8 @@ The repository includes the implementation of various data structures and algori
   - `SinglyLinkedList.java`: Singly linked list implementation.
   - `DoublyLinkedList.java`: Doubly linked list implementation.
   - `DoubleEndedLinkedList.java`: Double-ended linked list implementation.
-  - `Node.java`: Node class for singly linked lists.
-  - `Node2.java`: Node class for doubly linked lists.
+  - `Node.java`: Node class with data and a pointer for singly linked lists.
+  - `Node2.java`: Node class with data and two pointers for doubly linked lists.
 
 - **Stack and Queue**
   - `LStack.java`: Stack implementation using linked lists.
@@ -32,11 +31,8 @@ The repository includes the implementation of various data structures and algori
   - `LQueue.java`: Queue implementation using linked lists.
   - `Queue.java`: Array-based queue implementation.
 
-- **Hash Map**
-  - `HashMap.java`: Custom hash map implementation.
-
 - **Sorted List**
-  - `SortedList.java`: Implementation of a sorted list.
+  - `SortedList.java`: Implementation of a sorted linked list where elements are inserted in sorted order. It includes methods to check if the list is empty, add elements while maintaining order, remove the head element, and display the list.
 
 ### Algorithms
 
@@ -99,10 +95,6 @@ Contributions are welcome! If you have ideas for improvements or additional impl
    git push origin feature-name
    ```
 5. Open a pull request on the main repository.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
